@@ -46,7 +46,7 @@ namespace Services.BulkLoad
         {
             string connString = ConfigurationManager.ConnectionStrings[context].ConnectionString;
 
-            string tableName = typeof(T).Name;
+            string tableName = "Options_" + dt.Rows[0].ItemArray[0].ToString(); // typeof(T).Name;
             bool success = false;
 
             using (SqlBulkCopy bulkCopy = new SqlBulkCopy(connString))

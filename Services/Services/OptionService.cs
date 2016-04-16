@@ -51,6 +51,11 @@ namespace Services.Services
                 List<String> putRows = new List<String>();
                 var myDates = optDates.ToArray();
 
+                if (!SymbolContext.TableExists(sym))
+                {
+                    SymbolContext.CreateTable(sym);
+                }
+
                 try
                 {
                     int count = 0;
@@ -68,7 +73,7 @@ namespace Services.Services
                                 continue;
                             }
 
-                            if (optDates.Count == 0 && count < 10)
+                            if (optDates.Count == 0 && count < 3)
                             {
                                 count++;
                                 continue;

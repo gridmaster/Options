@@ -33,5 +33,38 @@ namespace Services.SQL
 
             return symbols;
         }
+
+        public static bool TableExists(string sym)
+        {
+            bool exists = false;
+            using (SqlConnection connection = new SqlConnection(connString))
+            {
+                connection.Open();
+
+                using (SqlCommand cmd = new SqlCommand("select case when exists((select * from information_schema.tables where table_name = 'Options_" + sym + "')) then 1 else 0 end", connection))
+                {
+                    exists = (int)cmd.ExecuteScalar() == 1;
+                } // command disposed here
+            } //connection closed and disposed here
+            return exists;
+        }
+
+        public static void CreateTable(string sym)
+        {
+            using (SqlConnection connection = new SqlConnection(connString))
+            {
+                connection.Open();
+
+                using (SqlCommand cmd = new SqlCommand("CreateTables", connection))
+                {
+                    cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                    cmd.Parameters.Add("@TableName", System.Data.SqlDbType.NVarChar).Value = "Options_" + sym;
+
+                    cmd.ExecuteNonQuery();
+                } // command disposed here
+
+            } //connection closed and disposed here
+
+        }
     }
 }
