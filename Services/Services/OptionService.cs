@@ -33,10 +33,6 @@ namespace Services.Services
         {
             bool success = false;
 
-            // this is for debugging and testing
-            //bool start = true;
-            //string startSymbol = "AAP";
-
             IOCContainer.Instance.Get<ILogger>().InfoFormat("{0}GetOptions's runnin...{0}", Environment.NewLine);
 
             OptionList options = new OptionList();
@@ -48,15 +44,6 @@ namespace Services.Services
 
             foreach (string sym in symbols)
             {
-
-                //if (sym != startSymbol && !start)
-                //{
-                //    continue;
-                //}
-                //else
-                //{
-                //    start = true;
-                //}
 
                 if (sym.IndexOf("^") > -1) continue;
 
@@ -101,53 +88,51 @@ namespace Services.Services
 
                 if (optDates == null) continue;
 
-                //for (int iNdx = 0; iNdx < optDates.Count; iNdx++)
-                //{
-                    for (int i = 0; i < callRows.Count; i++)
+                for (int i = 0; i < callRows.Count; i++)
+                {
+                    string exparationDate = callRows[i].Substring(0, callRows[i].IndexOf(" -"));
+                    try
                     {
-                        string exparationDate = callRows[i].Substring(0, callRows[i].IndexOf(" -"));
-                        try
-                        {
-                            Options opt = new Options()
-                                {
-                                    Symbol = sym,
-                                    CallPut = "Call",
-                                    DateCreated = DateTime.Now,
-                                    ExperationDate = System.Convert.ToDateTime(exparationDate),
-                                };
-                            opt = LoadRow(opt, callRows[i]);
-                            options.Options.Add(opt);
-                        }
-                        catch (Exception ex)
-                        {
-                            IOCContainer.Instance.Get<ILogger>()
-                                        .InfoFormat("{0}GetOptions's Call Error: {0}{1}", ex.Message,
-                                                    Environment.NewLine);
-                        }
+                        Options opt = new Options()
+                            {
+                                Symbol = sym,
+                                CallPut = "Call",
+                                DateCreated = DateTime.Now,
+                                ExperationDate = System.Convert.ToDateTime(exparationDate),
+                            };
+                        opt = LoadRow(opt, callRows[i]);
+                        options.Options.Add(opt);
                     }
+                    catch (Exception ex)
+                    {
+                        IOCContainer.Instance.Get<ILogger>()
+                                    .InfoFormat("{0}GetOptions's Call Error: {0}{1}", ex.Message,
+                                                Environment.NewLine);
+                    }
+                }
 
-                    for (int i = 0; i < putRows.Count; i++)
+                for (int i = 0; i < putRows.Count; i++)
+                {
+                    string exparationDate = putRows[i].Substring(0, putRows[i].IndexOf(" -"));
+                    try
                     {
-                        string exparationDate = putRows[i].Substring(0, putRows[i].IndexOf(" -"));
-                        try
-                        {
-                            Options opt = new Options()
-                                {
-                                    Symbol = sym,
-                                    CallPut = "Put",
-                                    DateCreated = DateTime.Now,
-                                    ExperationDate = System.Convert.ToDateTime(exparationDate),
-                                };
-                            opt = LoadRow(opt, putRows[i]);
-                            options.Options.Add(opt);
-                        }
-                        catch (Exception ex)
-                        {
-                            IOCContainer.Instance.Get<ILogger>()
-                                        .InfoFormat("{0}GetOptions's Put Error: {0}{1}", ex.Message, Environment.NewLine);
-                        }
+                        Options opt = new Options()
+                            {
+                                Symbol = sym,
+                                CallPut = "Put",
+                                DateCreated = DateTime.Now,
+                                ExperationDate = System.Convert.ToDateTime(exparationDate),
+                            };
+                        opt = LoadRow(opt, putRows[i]);
+                        options.Options.Add(opt);
                     }
-               // }
+                    catch (Exception ex)
+                    {
+                        IOCContainer.Instance.Get<ILogger>()
+                                    .InfoFormat("{0}GetOptions's Put Error: {0}{1}", ex.Message, Environment.NewLine);
+                    }
+                }
+
                 try
                 {
                     var dt = IOCContainer.Instance.Get<BulkLoadOptions>().ConfigureDataTable();
