@@ -1,0 +1,326 @@
+2016-04-15 14:57:07,836 [8] INFO   
+********************************************************************************
+
+2016-04-15 14:57:07,860 [8] INFO   
+Main's runnin'...
+
+2016-04-15 14:57:07,867 [8] INFO   
+GetOptions's runnin...
+
+2016-04-15 14:57:07,900 [8] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=^VIX&date=1460678400
+
+2016-04-15 14:58:21,272 [8] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=^VIX&date=1460678400
+
+2016-04-15 15:11:04,620 [10] INFO   
+********************************************************************************
+
+2016-04-15 15:11:04,642 [10] INFO   
+Main's runnin'...
+
+2016-04-15 15:11:04,650 [10] INFO   
+GetOptions's runnin...
+
+2016-04-15 15:11:28,376 [10] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1460678400
+
+2016-04-15 16:40:11,899 [10] INFO   
+********************************************************************************
+
+2016-04-15 16:40:11,921 [10] INFO   
+Main's runnin'...
+
+2016-04-15 16:40:11,927 [10] INFO   
+GetOptions's runnin...
+
+2016-04-15 16:40:31,544 [10] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1460678400
+
+2016-04-15 16:40:44,880 [10] INFO   
+BulkLoadOptions returned with: Success
+2016-04-15 16:51:10,560 [10] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1460678400
+
+2016-04-15 17:11:13,075 [10] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1460678400
+
+2016-04-15 17:12:08,626 [10] INFO   
+BulkLoadOptions returned with: Success
+2016-04-15 17:13:22,764 [10] INFO   
+GetOptions's runnin...
+
+2016-04-15 17:13:33,961 [10] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1460678400
+
+2016-04-15 17:14:14,516 [10] INFO   
+BulkLoadOptions returned with: Success
+2016-04-15 17:14:14,517 [10] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=AA&date=1460678400
+
+2016-04-15 17:48:39,497 [10] INFO   
+********************************************************************************
+
+2016-04-15 17:48:39,520 [10] INFO   
+Main's runnin'...
+
+2016-04-15 17:48:39,527 [10] INFO   
+GetOptions's runnin...
+
+2016-04-15 17:48:39,552 [10] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1460678400
+
+2016-04-15 18:19:48,961 [10] INFO   startIndex cannot be larger than length of string.
+Parameter name: startIndexGetOptionRows Error: startIndex cannot be larger than length of string.
+Parameter name: startIndex
+
+2016-04-15 18:35:30,364 [10] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1460678400
+
+2016-04-15 18:35:58,753 [10] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1461283200
+
+2016-04-15 18:37:33,825 [10] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1461283200
+
+2016-04-15 18:41:36,951 [10] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1460678400
+
+2016-04-15 18:41:49,760 [10] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1461283200
+
+2016-04-15 18:41:55,737 [10] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1461888000
+
+2016-04-15 18:42:10,097 [10] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1462492800
+
+2016-04-15 18:42:10,402 [10] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1463097600
+
+2016-04-15 18:42:10,649 [10] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1463702400
+
+2016-04-15 18:42:10,941 [10] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1464307200
+
+2016-04-15 18:42:11,179 [10] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1464912000
+
+2016-04-15 18:42:11,447 [10] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1466121600
+
+2016-04-15 18:42:11,701 [10] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1468540800
+
+2016-04-15 18:42:11,983 [10] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1471564800
+
+2016-04-15 18:42:12,281 [10] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1473984000
+
+2016-04-15 18:42:12,729 [10] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1477008000
+
+2016-04-15 18:42:12,988 [10] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1484870400
+
+2016-04-15 18:42:13,326 [10] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1516320000
+
+2016-04-15 18:50:05,468 [9] INFO   
+********************************************************************************
+
+2016-04-15 18:50:05,490 [9] INFO   
+Main's runnin'...
+
+2016-04-15 18:50:05,496 [9] INFO   
+GetOptions's runnin...
+
+2016-04-15 18:50:05,522 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1460678400
+
+2016-04-15 18:50:05,993 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1461283200
+
+2016-04-15 18:50:06,283 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1461888000
+
+2016-04-15 18:50:06,744 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1462492800
+
+2016-04-15 18:50:07,023 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1463097600
+
+2016-04-15 18:50:07,693 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1463702400
+
+2016-04-15 18:50:08,189 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1464307200
+
+2016-04-15 18:50:08,472 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1464912000
+
+2016-04-15 18:50:08,775 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1466121600
+
+2016-04-15 18:50:09,086 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1468540800
+
+2016-04-15 18:50:09,423 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1471564800
+
+2016-04-15 18:50:09,773 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1473984000
+
+2016-04-15 18:50:10,053 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1477008000
+
+2016-04-15 18:50:27,752 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1484870400
+
+2016-04-15 18:50:28,085 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=A&date=1516320000
+
+2016-04-15 22:22:45,140 [9] INFO   
+BulkLoadOptions returned with: Success
+2016-04-15 22:25:44,476 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=AA&date=1460678400
+
+2016-04-15 22:25:44,833 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=AA&date=1460678400
+
+2016-04-15 22:25:45,143 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=AA&date=1460678400
+
+2016-04-15 22:25:45,430 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=AA&date=1460678400
+
+2016-04-15 22:25:45,790 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=AA&date=1460678400
+
+2016-04-15 22:25:46,077 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=AA&date=1460678400
+
+2016-04-15 22:25:46,359 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=AA&date=1460678400
+
+2016-04-15 22:25:46,645 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=AA&date=1460678400
+
+2016-04-15 22:25:46,984 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=AA&date=1460678400
+
+2016-04-15 22:25:47,310 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=AA&date=1460678400
+
+2016-04-15 22:25:47,600 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=AA&date=1461283200
+
+2016-04-15 22:25:47,997 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=AA&date=1461888000
+
+2016-04-15 22:25:48,391 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=AA&date=1462492800
+
+2016-04-15 22:25:48,916 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=AA&date=1463097600
+
+2016-04-15 22:25:49,258 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=AA&date=1463702400
+
+2016-04-15 22:25:49,563 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=AA&date=1464307200
+
+2016-04-15 22:25:49,870 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=AA&date=1464912000
+
+2016-04-15 22:25:50,172 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=AA&date=1466121600
+
+2016-04-15 22:25:50,543 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=AA&date=1468540800
+
+2016-04-15 22:25:50,912 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=AA&date=1471564800
+
+2016-04-15 22:25:51,232 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=AA&date=1473984000
+
+2016-04-15 22:25:51,582 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=AA&date=1477008000
+
+2016-04-15 22:25:52,137 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=AA&date=1484870400
+
+2016-04-15 22:25:52,598 [9] INFO   
+Optionss is fetching uri: 
+http://finance.yahoo.com/q/op?s=AA&date=1516320000
+
+2016-04-15 22:26:23,656 [9] INFO   
+BulkLoadOptions returned with: Success
